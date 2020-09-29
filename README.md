@@ -4,17 +4,17 @@ Projet 1 Wild Code School (site from sratch html/css/js)
 
 # Projet 1 : ECO
 
-##pourquoi visiter le site?
+## Pourquoi visiter le site?
 -envie de voyager
 -découvrir les capitales europeenes
 
-##Information neccessaire :
+## Information neccessaire :
 -acces
 -point d'interet
 -bon plan (hotel/restaurant)
 -Météo
 
-##Action possible sur le site :
+## Action possible sur le site :
 1. Parcourir/décourir les bon plan en europe l'europe
 2. Contacter les reponsable de l'agence
 3. Reserver le transport
@@ -22,7 +22,7 @@ Projet 1 Wild Code School (site from sratch html/css/js)
 5. Decouvrir une destination aléatoire
 6. Decouvrir des activités
 
-##Fonctionnalité :
+## Fonctionnalité :
 1. Carte interractive / carrousel
 2. Formlaire de contact
 3. Appel API sncf https://www.digital.sncf.com/startup/api  api skyscanner https://www.partners.skyscanner.net/affiliates/travel-apis
@@ -30,7 +30,7 @@ Projet 1 Wild Code School (site from sratch html/css/js)
 5. Un random sur les differentes destination
 6. Page dédié a chaque capitale
 
-##Faciliter comprehension/navigation/interraction :
+## Faciliter comprehension/navigation/interraction :
 -aide sonore
 -adapter a toute support (responsive)
 -theme dark
