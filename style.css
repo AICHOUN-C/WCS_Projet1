@@ -1,7 +1,7 @@
 body {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 160px 50px 160px 160px 160px 40px;
+    grid-template-rows: 160px 50px auto auto auto 40px;
     grid-gap: 5px;
 }
 .logo {
@@ -51,7 +51,7 @@ a {
     grid-row: 5;
 
 }
-#map, #meteo, #calendrier, #actu{
+#meteo, #calendrier, #actu{
     background-color: gray;   
 }
 footer {
