@@ -3,33 +3,27 @@
 }
 /* background des pays visités */
 .paysPointer {
-    fill: #085372;
+    fill: #009FE0;
 }
 /* le style quand on passe la souris (version pc) sur les pays a visités */
 .paysPointer:hover { 
-    fill:#e0ec23;
+    fill:#FDEF00;
     transition: 1s;
     transform: translate(-2%) scaleZ(1.5); 
 }
 /* background des autres pays */
 path {
-    fill: #919085;
+    fill: #91908550;
 }
 /* style quand on passe sur l'allemagne (version pc) */
 #allemagne:hover {
-    fill:#e0ec23;
+    fill:#FDEF00;
     transition: 1s;
     transform: rotate(-1deg); 
 }
-/* style quand on passe sur l'hollande (version pc) */
-#holland:hover {
-    fill:#e0ec23;
-    transition: 1s;
-    transform: none; 
-}
-/* style quand on passe sur la belgique (version pc) */
-#belgique:hover {
-    fill:#e0ec23;
+/* style quand on passe sur l'hollande et la belgique (version pc)*/ 
+#holland:hover, #belgique:hover {
+    fill:#FDEF00;
     transition: 1s;
     transform: none; 
 }
