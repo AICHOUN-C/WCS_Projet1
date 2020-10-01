@@ -22,7 +22,15 @@ nav {
     border-radius: 25px;
     grid-column: 1 / 13;
     grid-row: 1 / 2;
+    font-family: 'menu', 'Arial Narrow', Arial, sans-serif;
 }
+.liNav {
+    color: #4C4B63;
+}
+.liNav:hover {
+    color: #5386e4;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -71,6 +79,9 @@ footer {
 /*MEDIA QUERIES FOR SMARTPHONE LANDSCAPE AND PORTRAIT STYLE*/
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     .info-aside, .social-aside, #map {
+        display: none;
+    }
+    .liNav {
         display: none;
     }
 }

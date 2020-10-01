@@ -1,5 +1,5 @@
 #ocean {
-    fill: #00C0E100;
+    fill: #C3C3C300;
 }
 /* background des pays visités */
 .paysPointer {
@@ -7,23 +7,23 @@
 }
 /* le style quand on passe la souris (version pc) sur les pays a visités */
 .paysPointer:hover { 
-    fill:#FDEF00;
+    fill:#4C4B63;
     transition: 1s;
     transform: translate(-2%) scaleZ(1.5); 
 }
 /* background des autres pays */
 path {
-    fill: #91908550;
+    fill: #94939670;
 }
 /* style quand on passe sur l'allemagne (version pc) */
 #allemagne:hover {
-    fill:#FDEF00;
+    fill:#4C4B63;
     transition: 1s;
     transform: rotate(-1deg); 
 }
 /* style quand on passe sur l'hollande et la belgique (version pc)*/ 
 #holland:hover, #belgique:hover {
-    fill:#FDEF00;
+    fill:#4C4B63;
     transition: 1s;
     transform: none; 
 }
