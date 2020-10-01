@@ -1,9 +1,6 @@
 #ocean {
     fill: #00C0E100;
 }
-#map-img {
-    height: 490px;
-}
 /* background des pays visités */
 .paysPointer {
     fill: #085372;

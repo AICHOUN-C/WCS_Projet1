@@ -9,17 +9,10 @@
 </head> 
 
 <body>
-        <div class= "logo">
-            <img id= "logo" src="src/logo_1.png" alt="image du logo">
-        </div>
-    
-        <div class="titre"> 
-            <h1>ECO Europan Compagny Operator </h1>
-            <h2>Préparez-votre valise,<br>et partez à la découverte d'une capitale Européenne !​</h2>
-        </div>
     <nav>
         <ul>
-            <li><a href="#">Accueil</a></li>
+            <li><img id="" src="src/logo_2.png"></li>
+            <li><a href="index.html">Accueil</a></li>
             <li><a href="#">Carte Interactive</a></li>
             <li><a href="#" id="random-country">Pays Aleatoire</a></li>
             <li><a href="#">Qui sommes nous?</a></li>
@@ -32,7 +25,7 @@
         <!-- div de l'image svg -->
         <div id="map-img">
             <!-- designation du svg -->
-            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="1000 2500 8000 8000">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="1000 2500 8000 6000">
                 <!-- path sont les parties (ou zones) du svg -->
                 <a xlink:href ="countries/portugal.html" target="_blank">
                     <!-- ancre pour le lien clicable en xml -->
@@ -196,15 +189,22 @@
         </div>
     </section>
 
-    <aside id="meteo" ></aside>
-    <aside id="calendrier"></aside>
-    <aside id="actu"></aside>
+    <aside class= "social-aside">
+
+    </aside>
+
+    <aside class= "info-aside">
+    </aside>
 
     <footer>
-        <img id="covid" src="src/bandeau_covid.png">
-        <img id="facebook" src="src/facebook.png">
-        <img id="twitter" src="src/twitter.png">
-        <img id="insta" src="src/instagram.png">
+        <p class="auteur">Fait par Mustafa, Mickaël, Jérome et Chérif pour la <a href="https://www.wildcodeschool.com/fr-FR/"  title="WCS">Wild Code School</a></p>
+        <p class="covid">Info Covid19><a href="https://www.gouvernement.fr/info-coronavirus" title="Codiv19"></a></p>
+
+        <div class="social">
+            <img id="facebook" src="src/facebook.png">
+            <img id="twitter" src="src/twitter.png">
+            <img id="insta" src="src/instagram.png">
+        </div>
     </footer>
 
     <script src="./random.js"></script> 
