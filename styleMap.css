@@ -3,7 +3,7 @@
 }
 /* background des pays visités */
 .paysPointer {
-    fill: #009FE0;
+    fill: #5386e4;
 }
 /* le style quand on passe la souris (version pc) sur les pays a visités */
 .paysPointer:hover { 

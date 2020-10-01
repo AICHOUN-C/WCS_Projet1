@@ -1,3 +1,11 @@
+@font-face {
+    font-family: "titre";
+    src: url('src/fonts/PERTILI.TTF');
+    font-family: "article";
+    src: url('src/fonts/PER____.TTF');
+    font-family: "menu";
+    src: url('src/font/good times rg.ttf');
+}
 body {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
