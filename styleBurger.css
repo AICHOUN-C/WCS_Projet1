@@ -1,5 +1,5 @@
 /*MEDIA QUERIES FOR SMARTPHONE LANDSCAPE AND PORTRAIT STYLE*/
-/* @media only screen and (min-device-width : 320px) and (max-device-width : 480px) { */
+ @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 
     .burger {
         width: 30px;
@@ -43,4 +43,4 @@
         transform: translateY(0px) rotate(-45deg);
         background-color: #5386e4;
     }
-/* } */
+} 
