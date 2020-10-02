@@ -1,0 +1,46 @@
+/*MEDIA QUERIES FOR SMARTPHONE LANDSCAPE AND PORTRAIT STYLE*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    .burger {
+        width: 30px;
+        height: 24px;
+        cursor: pointer;
+        position: relative;
+    }
+    .burger span{
+        width: 100%;
+        height: 4px;
+        background-color: #4C4B63;
+        display: block;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        transition: background-color .5s ease-in-out;
+    }
+    .burger span::before ,.burger span::after {
+        content: '';
+        width: 100%;
+        height: 4px;
+        background-color: #4C4B63;
+        position: absolute;
+    }
+    .burger span::before {
+        transform: translateY(-10px);
+        transition: transform .5s ease-in-out;  
+    }
+    .burger span::after {
+        transform: translateY(10px); 
+        transition: transform .5s ease-in-out; 
+    }
+    .burger.active span {
+        background-color: transparent;
+    }
+    .burger.active span::before {
+        transform: translateY(0px) rotate(45deg);
+        background-color: #5386e4;
+    }
+    .burger.active span::after {
+        transform: translateY(0px) rotate(-45deg);
+        background-color: #5386e4;
+    }
+}

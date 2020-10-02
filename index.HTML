@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./style.css" rel="stylesheet">
     <link href="./styleMap.css" rel="stylesheet">
+    <link id="link" href="./styleBurger.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="src/logo_1.png" />
     <title> ECO </title>
 </head> 
 
 <body>
-    <nav>
+    <nav id="menu">
         <ul>
-            <li><img id="" src="src/logo_2.png"></li>
+            <li><img id="logo" src="src/logo_2.png"></li>
             <li><a class="liNav" href="index.html">Accueil</a></li>
             <li><a class="liNav" href="#" id="random-country">Pays Aléatoire</a></li>
             <li><a class="liNav" href="#">Qui sommes nous ?</a></li>
@@ -20,7 +21,9 @@
             <li><a class="liNav" href="#">Contact</a></li>    
         </ul>
     </nav>
-
+        <div class="burger">
+            <span></span>
+        </div>
     <section id="map">
         <!-- div de l'image svg -->
         <div id="map-img">
@@ -207,7 +210,8 @@
         </div>
     </footer>
 
-    <script src="./random.js"></script> 
+    <script src="./random.js"></script>
+    <script src="./burger.js"></script> 
 </body>
 
 </html>
