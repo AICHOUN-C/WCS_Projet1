@@ -1,4 +1,5 @@
-@font-face {
+@font-face 
+{
     font-family: "titre";
     src: url('src/fonts/PERTILI.TTF');
     font-family: "article";
@@ -6,32 +7,38 @@
     font-family: "menu";
     src: url('src/font/good times rg.ttf');
 }
-body {
+body 
+{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-gap: 5px;
 }
-nav ul {
+nav ul 
+{
     list-style: none;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-nav {
+nav 
+{
     background-color: #c3c3c350;
     border-radius: 25px;
     grid-column: 1 / 13;
     grid-row: 1 / 2;
 }
-a {
+a
+{
     text-decoration: none;
     color: black;
 }
-#map {
+#map 
+{
     grid-column: 1 / 13;
     grid-row: 2 / 5; 
 }
-.social-aside {
+.social-aside 
+{
     margin: auto;
     grid-column: 1 / 2;
     grid-row: 2 / 3;
@@ -39,38 +46,108 @@ a {
 /*#facebook , #twitter, #insta {
     margin-bottom: 1em;
 }*/
-.info-aside {
+.info-aside 
+{
     border-radius: 25px;
     grid-column: 1 / 4;
     grid-row: 2 / 5;
     background-color: #94939650;
 }
-footer {
+
+footer 
+{
     display: flex;
-    justify-content: space-around;
+    justify-content:space-between;
     align-items: center;
     border-radius: 25px;;
-    background-color: #5386E450;
+    background-color:white;
     grid-column: 1 / 13;
     grid-row: 5 / 6;
 }
-.auteur {
-    color: #4C4B63;
-}
-.covid {
-    color: red;
-}
 
-/*MEDIA QUERIES FOR iPAD LANDSCAPE AND PORTRAIT STYLE*/
+/*MEDIA QUERIES POUR TABLETTES*/
 @media only screen and (min-device-width : 481px) and (max-device-width : 1024px) {
     .info-aside {
-        display: none
+        display: none;
     }
 }
 
-/*MEDIA QUERIES FOR SMARTPHONE LANDSCAPE AND PORTRAIT STYLE*/
+/*MEDIA QUERIES POUR SMARTPHONE ET PORTRAIT STYLE*/
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     .info-aside, .social-aside, #map {
         display: none;
     }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none;
+  text-align: center;
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px;
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px;
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear;
+}
+
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px;
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998;
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced;
+}
+.social-icons a.youtube:hover
+{
+  background-color:red;
+}
+.social-icons a.instagram:hover
+{
+  background-color:#F68343;
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600;
+  }
+}
+.footer-Covid
+{
+  margin-left: 5%;
+
 }
