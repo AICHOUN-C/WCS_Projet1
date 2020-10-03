@@ -1,11 +1,25 @@
+.menuBurger {
+    display: none;
+}
+
 /*MEDIA QUERIES FOR SMARTPHONE LANDSCAPE AND PORTRAIT STYLE*/
  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    body {
+        grid-template-rows: 1fr 2fr 2fr 2fr;
+    }
+
+    /* fabrication icon burger */
 
     .burger {
         width: 30px;
         height: 24px;
         cursor: pointer;
         position: relative;
+        grid-column: 12;
+        grid-row: 1;
+        top: 3vh;
+        right: 3vw;
     }
     .burger span{
         width: 100%;
@@ -32,6 +46,9 @@
         transform: translateY(10px); 
         transition: transform .5s ease-in-out; 
     }
+
+    /* Annimation icon burger */
+
     .burger.active span {
         background-color: transparent;
     }
@@ -43,4 +60,14 @@
         transform: translateY(0px) rotate(-45deg);
         background-color: #5386e4;
     }
+
+    /* création menu de l'icon burger */
+
+    .menuBurger {
+        display: grid;
+        grid-column: 1/13;
+        grid-row: 2/6;
+        background-color: #4C4B63;
+    }
+
 } 
