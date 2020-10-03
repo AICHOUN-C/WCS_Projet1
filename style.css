@@ -165,10 +165,7 @@ footer
 
 /*MEDIA QUERIES POUR SMARTPHONE ET PORTRAIT STYLE*/
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    .info-aside, .social-aside, #map {
-        display: none;
-    }
-    .liNav {
+      .info-aside, .social-aside, #map, .liNav {
         display: none;
     }
 }

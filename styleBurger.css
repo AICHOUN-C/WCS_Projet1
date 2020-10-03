@@ -64,10 +64,31 @@
     /* création menu de l'icon burger */
 
     .menuBurger {
+        font-family: 'menu', 'Arial Narrow', Arial, sans-serif;
         display: grid;
         grid-column: 1/13;
         grid-row: 2/6;
         background-color: #4C4B63;
+        z-index: 2;
     }
-
+    .menuBurger a {
+        color: #ffffff;
+        text-align: center;
+        display: block;
+        padding-top: 1.5em;
+    }
+    .navBurger {
+        background-color:transparent;
+        transition: 1s;
+    }
+    .navBurger a {
+        display: none;
+    } 
+    .navOpen {
+        background-color: #4C4B63;
+        transition: 1s;
+    }
+    .navOpen a {
+        display: block;
+    }
 } 
