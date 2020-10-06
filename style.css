@@ -1,5 +1,4 @@
-@font-face 
-{
+@font-face {
     font-family: "titre";
     src: url('src/fonts/PERTILI.TTF');
     font-family: "article";
@@ -7,11 +6,15 @@
     font-family: "menu";
     src: url('src/font/good times rg.ttf');
 }
-body 
-{
+body {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-gap: 5px;
+    grid-gap: 5px; 
+    /*-moz-opacity:0.84;
+    opacity: 0.95; 
+    background-image: url('src/amsterdam_background.jpg');  
+    background-repeat: no-repeat;
+    background-size: auto;*/
 }
 .nav-bar {
     display: flex;
@@ -30,8 +33,7 @@ nav ul {
     justify-content: space-around;
     align-items: center;
 }
-nav 
-{
+nav {
     background-color: #c3c3c350;
     border-radius: 25px;
     grid-column: 5 / 13;
@@ -71,9 +73,7 @@ a {
     grid-column: 10 / 13;
     grid-row: 1 / 1;
 }
-
-footer 
-{
+footer {
     display: flex;
     justify-content:space-around;
     align-items: center;
@@ -82,27 +82,24 @@ footer
     grid-column: 1 / 13;
     grid-row: 5 / 6;
 }
-.social-icons
-{
+.social-icons {
   padding-left:0;
   margin-bottom:0;
   list-style:none;
   text-align: center;
 }
-.social-icons li
-{
+.social-icons li {
   display:inline-block;
   margin-bottom:4px;
 }
-.social-icons li.title
-{
+.social-icons li.title {
   margin-right:15px;
   text-transform:uppercase;
   color:#96a2b2;
   font-weight:700;
   font-size:13px;
 }
-.social-icons a{
+.social-icons a {
   background-color:#eceeef;
   color:#818a91;
   font-size:16px;
@@ -117,43 +114,33 @@ footer
   -o-transition:all .2s linear;
   transition:all .2s linear;
 }
-
-.social-icons.size-sm a
-{
+.social-icons.size-sm a {
   line-height:34px;
   height:34px;
   width:34px;
   font-size:14px;
 }
-.social-icons a.facebook:hover
-{
+.social-icons a.facebook:hover {
   background-color:#3b5998;
 }
-.social-icons a.twitter:hover
-{
+.social-icons a.twitter:hover {
   background-color:#00aced;
 }
-.social-icons a.youtube:hover
-{
+.social-icons a.youtube:hover {
   background-color:red;
 }
-.social-icons a.instagram:hover
-{
+.social-icons a.instagram:hover {
   background-color:#F68343;
 }
-@media (max-width:767px)
-{
-  .social-icons li.title
-  {
+@media (max-width:767px) {
+  .social-icons li.title {
     display:block;
     margin-right:0;
     font-weight:600;
-  }
 }
-.footer-Covid
-{
+}
+.footer-Covid {
   margin-left: 5%;
-
 }
 
 /*MEDIA QUERIES POUR TABLETTES*/
