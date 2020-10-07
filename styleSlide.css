@@ -1,0 +1,22 @@
+.slide {
+    grid-column: 10 / 13;
+    grid-row: 1 / 1;
+}
+#carousel1, #carousel2, #carousel3,#carousel4, #carousel5 {
+    background-image: url('src/paris.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+}
+#carousel2 {
+    background-image: url('src/slide1.jpg');
+}
+#carousel3 {
+    background-image: url('src/slide2.jpg');
+}
+#carousel4 {
+    background-image: url('src/slide3.jpg');
+}
+#carousel5 {
+    background-image: url('src/slide4.jpg');
+}
