@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./style.css" rel="stylesheet">
+    <link href="./styleBurger.css" rel="stylesheet">
     <link href="./styleMap.css" rel="stylesheet">
     <!--Librairie pour pouvoir obtenir tout les icones des reseaux sociaux-->    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -13,7 +14,7 @@
 
 <body>
     <div class="nav-bar">
-        <nav>
+        <nav class="menu">
             <ul>
                 <li class="li-text"><a class="liNav" href="index.html">Accueil</a></li>
                 <li class="li-text"><a class="liNav" href="#" id="random-country">Pays Aléatoire</a></li>
@@ -22,6 +23,15 @@
             </ul>
         </nav>
         <div class="nav-logo"><img id="" src="src/logo_2.png"></div>
+    </div>
+    <div class="burger">
+        <span></span>
+    </div>
+    <div class='menuBurger navBurger'>
+        <a class="liNav" href="index.html">Accueil</a>
+        <a class="liNav" href="#" id="random-country">Pays Aléatoire</a>
+        <a class="liNav" href="#">A propos ?</a>
+        <a class="liNav" href="#">Contact</a>
     </div>
 
     <section class="container">
@@ -193,10 +203,11 @@
 
         <aside class= "info-aside">
         </aside>
+        
     
     </section>
 
-    <footer>
+    <footer class="footerResponsive">
 
         <div class="footer-copy">
             <p>Copyright &copy; 2020 Tous droits réservés <br> Developpé par Cherif | Jerome | Mickael | Mustafa
@@ -226,8 +237,13 @@
        
     </footer>
 
+<<<<<<< HEAD
     <script src="./random.js"></script> 
     <script src="./script.js"></script>
+=======
+    <script src="./random.js"></script>
+    <script src="./burger.js"></script> 
+>>>>>>> f451c05b3a71b80ecac2a4cfcc5e069d0f198423
 </body>
 
 </html>
