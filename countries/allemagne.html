@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../style.css" rel="stylesheet">
     <link href="styleBerlin.css" rel="stylesheet">
     <!--Librairie pour pouvoir obtenir tout les icones des reseaux sociaux-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -14,35 +13,37 @@
 </head>
 
 <body>
-    <div class="nav-bar">
-        <nav>
-            <ul>
-                <li class="li-text"><a class="liNav" href="../index.html">Accueil</a></li>
-                <li class="li-text"><a class="liNav" href="#" id="random-country">Pays Aléatoire</a></li>
-                <li class="li-text"><a class="liNav" href="#">A propos ?</a></li>
-                <li class="li-text"><a class="liNav" href="#">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="nav-logo"><img id="" src="../src/logo_2.png"></div>
-    </div>
+    <header>
+        <div class="nav-bar">
+            <nav>
+                <ul>
+                    <li class="li-text"><a class="liNav" href="../index.html">Accueil</a></li>
+                    <li class="li-text"><a class="liNav" href="#" id="random-country">Pays Aléatoire</a></li>
+                    <li class="li-text"><a class="liNav" href="#">A propos ?</a></li>
+                    <li class="li-text"><a class="liNav" href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-logo"><img id="" src="../src/logo_2.png"></div>
+        </div>
+        <h1 class="titre">Partez à la découverte de BERLIN</h1>
+    </header>
+
     <section class="main-container">
 
-        <div class="titre">
-            <h1>Partez à la découverte de BERLIN</h1>
-        </div>
+        
+        <video autoplay muted loop id="myVideo">
+        <source src="../src/londresVideo.mp4"scrolling="no" marginwidth="0" marginheight="0" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0" height="100%" width="100%"> type="video/mp4">
+        </video>
 
-        <div class="video infoBerlin">
-            <video autoplay muted loop id="myVideo">
-            <source src="../src/londresVideo.mp4"scrolling="no" marginwidth="0" marginheight="0" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0" height="100%" width="100%"> type="video/mp4">
-            </video>
-
+        <div class="content">
+            <h1 class="tablet-titre">Partez à la découverte de BERLIN</h1>
             <div class="one">
-                <h2>En quelques mots !</h2>
-                <h3>Berlin, la capitale allemande est une véritable ville mondiale et un centre à la fois culturel et artistique avec ses 165 musées, 146 bibliothèques ainsi que ses 60 théâtres.​</li>
-                    Elle renferme un centre historique très impressionnant. Il y a tout d’abord l’île aux Musées où s’agglutinent le Berliner Dom (la cathédrale), le jardin d’agrément Lustgarten, le musée de Pergame (lieu d’exposition de la porte de Babylone et la porte
-                    du marché de Milet), le musée Bode qui préserve les collections antiques d’origine grecque ou encore le Nouveau Musée, spécialisé dans la conservation des antiquités égyptiennes.​</li>
-                    Part ses musées, la ville de Berlin est réputée pour sa vieille avenue, l’Unter den Linden où siègent plusieurs monuments historiques. On y trouve par exemple, la Neue Wache, cet édifice dédié aux victimes de guerres, l’ancien arsenal, le Staatsoper Unter
-                    den Linden ainsi que la cathédrale Sainte-Hedwige et la Alte Bibliothek.​</h2>
+            <h2>En quelques mots !</h2>
+            <h3>Berlin, la capitale allemande est une véritable ville mondiale et un centre à la fois culturel et artistique avec ses 165 musées, 146 bibliothèques ainsi que ses 60 théâtres.​</li>
+                Elle renferme un centre historique très impressionnant. Il y a tout d’abord l’île aux Musées où s’agglutinent le Berliner Dom (la cathédrale), le jardin d’agrément Lustgarten, le musée de Pergame (lieu d’exposition de la porte de Babylone et la porte
+                du marché de Milet), le musée Bode qui préserve les collections antiques d’origine grecque ou encore le Nouveau Musée, spécialisé dans la conservation des antiquités égyptiennes.​</li>
+                Part ses musées, la ville de Berlin est réputée pour sa vieille avenue, l’Unter den Linden où siègent plusieurs monuments historiques. On y trouve par exemple, la Neue Wache, cet édifice dédié aux victimes de guerres, l’ancien arsenal, le Staatsoper Unter
+                den Linden ainsi que la cathédrale Sainte-Hedwige et la Alte Bibliothek.​</h2>
             </div>
 
             <div class="two">
@@ -60,7 +61,6 @@
                 </ul>
             </div>
 
-
             <div class="tree">
                 <h2>Nos conseils :</h2>​
                 <h3>Prévoyez de faire la majorité de vos visites à pied, seule façon de s’imprégner véritablement de Berlin.</h3>
@@ -68,7 +68,6 @@
                 <h3>Enfin, les transports en commun sont le meilleur moyen pour circuler à Berlin. Mieux vaut ne pas surcharger vos journées de visites : l’âme berlinoise se dévoile en prenant le temps de flaner dans un quartier, en regardant les passants
                     dans un parc ou se prélassant dans un café.</h3>
             </div>
-            
         </div>
     </section>
 
@@ -77,9 +76,7 @@
         <div class="footer-copy">
             <p>Copyright &copy; 2020 Tous droits réservés <br> Developpé par Chérif | Jérôme | Mickael | Mustafa
             </p>
-
         </div>
-
 
         <div class="footer-social">
             <ul class="social-icons">
@@ -96,7 +93,6 @@
                 </a>
             </p>
         </div>
-
 
     </footer>
 
