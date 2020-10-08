@@ -5,11 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link css -->
+
     <link href="../style.css" rel="stylesheet">
     <link href="styleBerlin.css" rel="stylesheet">
+    <link href="../styleBurger.css" rel="stylesheet">
     <!--Librairie pour pouvoir obtenir tout les icones des reseaux sociaux-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Link js -->
+
+    <script src="../random.js" async></script>
+    <script type="text/javascript" src="../burger.js" async ></script>
+
+
     <link rel="icon" type="image/png" href="../src/logo_1.png" />
+
     <title> BERLIN </title>
 </head>
 
@@ -25,6 +37,16 @@
         </nav>
         <div class="nav-logo"><img id="" src="../src/logo_2.png"></div>
     </div>
+    <div class="burger">
+        <span></span>
+    </div>
+    <div class='menuBurger navBurger'>
+        <a class="liNav" href="index.html">Accueil</a>
+        <a class="liNav" href="#" id="random-country-burger">Pays Aléatoire</a>
+        <a class="liNav" href="#">A propos ?</a>
+        <a class="liNav" href="#">Contact</a>
+    </div>
+
     <section class="main-container">
 
         <div class="titre">
@@ -100,7 +122,6 @@
 
     </footer>
 
-    <script src="../random.js"></script>
 </body>
 
 </html>

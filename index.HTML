@@ -16,9 +16,12 @@
 
     <!-- Link .js -->
 
-    <script type="text/javascript" src="./slide.js" async></script>
-    <script type="text/javascript" src="./random.js" async></script>
-    <script type="text/javascript" src="./burger.js" async></script>
+    <script type="text/javascript" src="./random2.js" async ></script>
+    <script type="text/javascript" src="./burger.js" async ></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js" async></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js" async></script>
+    <script src="./slide.js" async></script>
+    
 
     <title> ECO </title>
 </head> 
@@ -215,12 +218,15 @@
         <!-- <aside class= "info-aside">
         </aside> -->
 
-        <div class= "slide">
-            <div id="carousel1">&nbsp;</div>
-            <div id="carousel2">&nbsp;</div>
-            <div id="carousel3">&nbsp;</div>
-            <div id="carousel4">&nbsp;</div>
-            <div id="carousel5">&nbsp;</div>
+        <div id="slider">
+            <a href="#" class="control_next">></a>
+            <a href="#" class="control_prev"><</a>
+            <ul>
+              <li><img src="./src/slide1.jpg"></li>
+              <li><img src="./src/slide2.jpg"></li>
+              <li><img src="./src/slide3.jpg"></li>
+              <li><img src="./src/slide4.jpg"></li>
+            </ul>  
         </div>
         
         </section>
@@ -252,6 +258,7 @@
 
        
     </footer>
+
 </body>
 
 </html>

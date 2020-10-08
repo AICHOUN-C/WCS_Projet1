@@ -5,9 +5,9 @@
 /*MEDIA QUERIES FOR SMARTPHONE LANDSCAPE AND PORTRAIT STYLE*/
  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 
-    body {
+    /* body {
         grid-template-rows: 1fr 2fr 2fr 2fr;
-    }
+    } */
 
     /* fabrication icon burger */
 
@@ -16,13 +16,13 @@
         height: 24px;
         cursor: pointer;
         position: relative;
-        grid-column: 12;
-        grid-row: 1;
+        /* grid-column: 12;
+        grid-row: 1; */
         top: 5vh;
         right: 5vw;
     }
     .burger span{
-        width: 100%;
+        width: 30px;
         height: 4px;
         background-color: #4C4B63;
         display: block;
@@ -65,11 +65,13 @@
 
     .menuBurger {
         font-family: 'menu', 'Arial Narrow', Arial, sans-serif;
-        display: grid;
+        /* display: grid;
         grid-column: 1/13;
-        grid-row: 2/6;
+        grid-row: 2/6; */
         background-color: #4C4B63;
         z-index: 2;
+        display: block;
+        width: 100%;
     }
     .menuBurger a {
         color: #ffffff;
