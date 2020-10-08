@@ -6,6 +6,6 @@ randomLink.addEventListener('click', function (event) {
 } );
 
 function randomCountry () {
-    location.href = 'countries/' + sources[Math.floor (Math.random()* (sources.length -1))] + '.html';
+    location.href = sources[Math.floor (Math.random()* (sources.length -1))] + '.html';
 }
 
