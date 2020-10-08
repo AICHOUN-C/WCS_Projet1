@@ -1,24 +1,24 @@
-jQuery(document).ready(function ($) {
+jQuery(document).ready(function($) {
 
-    setInterval(function () {
+    setInterval(function() {
         moveRight();
     }, 5000);
-  
-	let slideCount = $('#slider ul li').length;
-	let slideWidth = $('#slider ul li').width();
-	let slideHeight = $('#slider ul li').height();
-	let sliderUlWidth = slideCount * slideWidth;
-	
-	$('#slider').css({ width: slideWidth, height: slideHeight });
-	
-	$('#slider ul').css({ width: sliderUlWidth, marginLeft: - slideWidth });
-	
+
+    let slideCount = $('#slider ul li').length;
+    let slideWidth = $('#slider ul li').width();
+    let slideHeight = $('#slider ul li').height();
+    let sliderUlWidth = slideCount * slideWidth;
+
+    $('#slider').css({ width: slideWidth, height: slideHeight });
+
+    $('#slider ul').css({ width: sliderUlWidth, marginLeft: -slideWidth });
+
     $('#slider ul li:last-child').prependTo('#slider ul');
 
     function moveLeft() {
         $('#slider ul').animate({
-            left: + slideWidth
-        }, 2000, function () {
+            left: +slideWidth
+        }, 2000, function() {
             $('#slider ul li:last-child').prependTo('#slider ul');
             $('#slider ul').css('left', '');
         });
@@ -26,19 +26,19 @@ jQuery(document).ready(function ($) {
 
     function moveRight() {
         $('#slider ul').animate({
-            left: - slideWidth
-        }, 2000, function () {
+            left: -slideWidth
+        }, 2000, function() {
             $('#slider ul li:first-child').appendTo('#slider ul');
             $('#slider ul').css('left', '');
         });
     };
 
-    $('a.control_prev').click(function () {
+    $('a.control_prev').click(function() {
         moveLeft();
     });
 
-    $('a.control_next').click(function () {
+    $('a.control_next').click(function() {
         moveRight();
     });
 
-});    
+});

@@ -70,7 +70,7 @@ nav {
 
 a {
     text-decoration: none;
-    color: black;
+    color: rgb(2, 2, 2)
 }
 
 h1 {
@@ -196,8 +196,8 @@ footer {
 /*MEDIA QUERIES POUR SMARTPHONE ET PORTRAIT STYLE*/
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-    .liNav, .container {
+    .liNav,
+    .container {
         display: none;
     }
-
 }
