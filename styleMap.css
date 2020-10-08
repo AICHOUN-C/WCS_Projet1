@@ -30,13 +30,13 @@ path {
 }
 /* style quand on passe sur l'allemagne (version pc) */
 #allemagne:hover {
-    fill:#e1ce9a;
+    fill:#4C4B63;
     transition: 1s;
     transform: rotate(-0.5deg); 
 }
 /* style quand on passe sur l'hollande et la belgique (version pc)*/ 
 #holland:hover, #belgique:hover {
-    fill:#e1ce9a;
+    fill:#4C4B63;
     transition: 1s;
     transform: none; 
 }
