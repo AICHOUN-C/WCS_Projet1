@@ -20,7 +20,7 @@
 }
 /* le style quand on passe la souris (version pc) sur les pays a visités */
 .paysPointer:hover { 
-    fill:#e1ce9a;
+    fill:#4C4B63;
     transition: 1s;
     transform: translate(-0.5%) scaleZ(1.5); 
 }
