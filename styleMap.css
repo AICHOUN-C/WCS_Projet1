@@ -1,7 +1,8 @@
 #map {
-    position: absolute;
     display: flex;
     width: 100%;
+    margin-bottom: 15px;
+    order: 2;
 }
 #ocean {
     fill: #C3C3C300;
@@ -9,6 +10,18 @@
 .custom-map {
     max-height: 100%;
     width: 78%;
+}
+h1 {
+    font-family: "menu", "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 2rem;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+.titre {
+    text-align: center;
+    margin-top: 0px;
+    color: #5386e4ee;
+    margin: 15px 0 15px 0;
 }
 /* background des pays visités */
 .paysPointer {

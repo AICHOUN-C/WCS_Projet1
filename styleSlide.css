@@ -2,6 +2,9 @@
   position: relative;
   overflow: hidden;
   border-radius: 4px;
+  max-height: fit-content;
+  max-width: fit-content;
+  margin: 15px 0 15px 0;
 }
 
 #slider ul {
@@ -14,7 +17,7 @@
 
 #slider ul li {
   position: relative;
-  display: block;
+  display: flex;
   float: left;
   margin: 0;
   padding: 0;
