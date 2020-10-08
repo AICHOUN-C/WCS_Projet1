@@ -5,6 +5,6 @@ burger.addEventListener('click', () => {
         burger.classList.toggle('active');
     } );
 
-burger.onclick = function() {
+burger.onclick = () => {
     navBurger.classList.toggle('navOpen');
 }
