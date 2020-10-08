@@ -91,12 +91,7 @@ a {
     color: white;
     display: none;
 }
-<<<<<<< HEAD:countries/styleBerlin.css
 .content,.modal {
-=======
-
-.content {
->>>>>>> b90ce5b7b57c05d266cfaba69ca2c0039e14d1c6:countries/stylePays.css
     position: fixed;
     top: 120px;
     background: rgba(95, 93, 93, 0.5);
