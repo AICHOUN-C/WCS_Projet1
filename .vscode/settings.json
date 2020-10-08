@@ -1,4 +1,8 @@
 {
+<<<<<<< HEAD
     "liveServer.settings.port": 5501,
     "maven.view": "flat"
+=======
+    "liveServer.settings.port": 5502
+>>>>>>> dad6a1fe5fde34dae43a4d2bd4e5a3bba2bd0f4b
 }
