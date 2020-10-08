@@ -12,8 +12,9 @@
         height: 24px;
         cursor: pointer;
         position: relative;
-        top: -2.7em;
+        top: 1.4em;
         left: 19.5em;
+        z-index: 99;
     }
     .burger span{
         width: 30px;
@@ -60,7 +61,7 @@
     .menuBurger {
         font-family: 'menu', 'Arial Narrow', Arial, sans-serif;
         background-color: #4C4B63;
-        z-index: 2;
+        z-index: 99;
         display: flex;
         flex-direction: column;
         justify-content: space-around;

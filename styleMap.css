@@ -2,25 +2,21 @@
     position: absolute;
     display: flex;
     width: 100%;
-    /* z-index: 3; */
-    /* grid-column: 1 / 13;
-    grid-row: 1 / 1; */
 }
 #ocean {
     fill: #C3C3C300;
 }
 .custom-map {
-    /* margin-left: 0.5em; */
     max-height: 100%;
     width: 78%;
 }
 /* background des pays visités */
 .paysPointer {
-    fill: #5386e4ee;
+    fill: #02BAE0;
 }
 /* le style quand on passe la souris (version pc) sur les pays a visités */
 .paysPointer:hover { 
-    fill:#4C4B63;
+    fill:#5386e4;
     transition: 1s;
     transform: translate(-0.5%) scaleZ(1.5); 
 }
@@ -30,13 +26,13 @@ path {
 }
 /* style quand on passe sur l'allemagne (version pc) */
 #allemagne:hover {
-    fill:#4C4B63;
+    fill:#5386e4;
     transition: 1s;
     transform: rotate(-0.5deg); 
 }
 /* style quand on passe sur l'hollande et la belgique (version pc)*/ 
 #holland:hover, #belgique:hover {
-    fill:#4C4B63;
+    fill:#5386e4;
     transition: 1s;
     transform: none; 
 }

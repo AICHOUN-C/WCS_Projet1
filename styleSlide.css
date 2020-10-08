@@ -22,7 +22,7 @@
   height: 37em;
   background: #ccc;
   text-align: center;
-  line-height: 300px;
+  line-height: 37em;
 }
 
 a.control_prev, a.control_next {
@@ -59,4 +59,10 @@ a.control_next {
 .slider_option {
   position: relative;
   font-size: 18px;
+}
+/*MEDIA QUERIES POUR SMARTPHONE ET PORTRAIT STYLE*/
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+
 }
