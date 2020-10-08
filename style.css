@@ -26,6 +26,27 @@ body {
     grid-row: 1 / 2;
 }
 
+.titre2 {
+    margin-top: 45px;
+    -webkit-box-shadow: 0 15px 10px rgba(0, 0, 0, .7);
+    -moz-box-shadow: 0 15px 10px rgba(0, 0, 0, .7);
+    box-shadow: 0 15px 10px rgba(0, 0, 0, .7);
+    -webkit-transform: rotate(-1deg);
+    -moz-transform: rotate(-1deg);
+    -o-transform: rotate(-1deg);
+    transform: rotate(-1deg);
+    width: 100%;
+    grid-column: 1 / 12;
+    grid-row: 2 / 5;
+    margin-left: 20px;
+    position: relative;
+    text-align: justify;
+    height: 100%;
+    background-color: #cbcae6;
+    opacity: 0.8;
+    padding: 25px;
+}
+
 .nav-logo {
     grid-column: 1 / 5;
     grid-row: 1 / 2;
@@ -60,6 +81,22 @@ nav {
 a {
     text-decoration: none;
     color: black;
+}
+
+h1 {
+    font-family: "menu", "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1rem;
+    text-shadow: -3px 2px 5px 1px rgba(0, 0, 0, 1)
+}
+
+h2 {
+    font-family: "article", Arial, Helvetica, sans-serif;
+    font-size: 0.5rem;
+}
+
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
 }
 
 .container {
