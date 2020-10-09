@@ -137,6 +137,7 @@ footer {
     bottom: 0;
     background-color: rgba(255, 255, 255, 0.5);
     opacity: 0.8;
+    padding: 10px 0 10px 0;
 }
 
 .social-icons {
@@ -249,11 +250,26 @@ footer {
 }
 
 @media only screen and (max-device-width: 480px) {
-    .liNav {
+    
+    header {
+        width: 95%;
+    }
+    .menu {
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul {
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    .nav-logo {
         display: none;
     }
-    .text {
-        font-size: 11px
+    .nav-bar {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     footer {
         display: none!important;

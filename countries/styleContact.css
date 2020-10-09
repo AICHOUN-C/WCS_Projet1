@@ -140,6 +140,7 @@ footer {
     bottom: 0!important;
     background-color: rgba(128, 128, 128, 0.7)!important;
     opacity: 0.8!important;
+    padding: 10px 0 10px 0!important;
 }
 
 .social-icons {
@@ -251,13 +252,28 @@ footer {
 }
 
 @media only screen and (max-device-width: 480px) {
-    .liNav {
-        display: none;
-    }
-    .text {
-        font-size: 11px
-    }
     footer {
         display: none!important;
     }
+    .menu {
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul {
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    .nav-logo {
+        display: none;
+    }
+    .nav-bar {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-Covid {
+        display: none;
+    }
+
 }
