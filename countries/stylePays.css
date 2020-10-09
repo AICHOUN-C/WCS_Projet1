@@ -14,14 +14,14 @@ h1 {
     font-family: "menu", "Helvetica Neue", Helvetica, sans-serif;
     font-size: 2rem;
     color: white;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 1px 2px 2px rgb(19, 56, 158);
 }
 
 h2 {
     font-family: "menu", Arial, Helvetica, sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: white;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 1px 2px 2px rgb(19, 56, 158);
 }
 
 h3 {
@@ -58,7 +58,7 @@ nav ul {
 
 nav {
     background-color: rgba(0, 0, 0, 0.5);
-    opacity: 0.6;
+    opacity: 0.7;
     border-radius: 5px;
     width: 100%;
     font-family: 'menu', 'Arial Narrow', Arial, sans-serif;
@@ -72,12 +72,17 @@ nav {
 
 a {
     text-decoration: none;
-    color: rgb(255, 254, 254);
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 2px 2px rgb(19, 56, 158);
 }
 
 .main-container {
     background-repeat: no-repeat;
     border-radius: 25px;
+}
+
+#propo {
+    width: 100%;
 }
 
 .titre {
@@ -91,7 +96,9 @@ a {
     color: white;
     display: none;
 }
-.content,.modal {
+
+.content,
+.modal {
     position: fixed;
     top: 120px;
     background: rgba(95, 93, 93, 0.8);
@@ -114,8 +121,6 @@ a {
 .one,
 .two,
 .tree {
-    margin-left: 20px;
-    text-align: justify;
     width: 33%;
     max-height: 60vh;
     box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 1);
@@ -215,8 +220,12 @@ footer {
     .li-text {
         font-size: 80%;
     }
+    .propo-img {
+        display: none;
+    }
     .content {
         flex-direction: column;
+        height: 80vh;
     }
     .titre {
         text-align: center;
@@ -239,11 +248,14 @@ footer {
     }
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (max-device-width: 480px) {
     .liNav {
         display: none;
     }
     .text {
         font-size: 11px
+    }
+    footer {
+        display: none!important;
     }
 }

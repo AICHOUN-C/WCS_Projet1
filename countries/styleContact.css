@@ -92,7 +92,9 @@ a {
     color: white;
     display: none;
 }
-.content,.modal {
+
+.content,
+.modal {
     position: fixed;
     top: 120px;
     background: rgba(54, 36, 36, 0.7);
@@ -111,10 +113,12 @@ a {
     min-width: 100%;
     min-height: 100%;
 }
+
 #modal-body {
     padding: 15px;
     color: black;
 }
+
 .one,
 .two {
     margin-left: 20px;
@@ -246,11 +250,14 @@ footer {
     }
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (max-device-width: 480px) {
     .liNav {
         display: none;
     }
     .text {
         font-size: 11px
+    }
+    footer {
+        display: none!important;
     }
 }
