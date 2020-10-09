@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #slider {
   position: relative;
   overflow: hidden;
@@ -6,6 +5,11 @@
   max-height: fit-content;
   max-width: fit-content;
   margin: 15px 0 15px 0;
+
+}
+
+.slide-img {
+  object-fit: cover;
 }
 
 #slider ul {
@@ -63,67 +67,4 @@ a.control_next {
 .slider_option {
   position: relative;
   font-size: 18px;
-=======
-#slider {
-  position: relative;
-  overflow: hidden;
-  border-radius: 4px;
-}
-
-#slider ul {
-  position: relative;
-  margin: 0;
-  padding: 0;
-  height: 20em;
-  list-style: none;
-}
-
-#slider ul li {
-  position: relative;
-  display: block;
-  float: left;
-  margin: 0;
-  padding: 0;
-  width: 68em;
-  height: 37em;
-  background: #ccc;
-  text-align: center;
-  line-height: 300px;
-}
-
-a.control_prev, a.control_next {
-  position: absolute;
-  top: 40%;
-  z-index: 999;
-  display: block;
-  padding: 4% 3%;
-  width: auto;
-  height: auto;
-  background: #2a2a2a60;
-  color: #fff;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 18px;
-  opacity: 0.8;
-  cursor: pointer;
-}
-
-a.control_prev:hover, a.control_next:hover {
-  opacity: 1;
-  transition: all 0.2s ease;
-}
-
-a.control_prev {
-  border-radius: 0 2px 2px 0;
-}
-
-a.control_next {
-  right: 0;
-  border-radius: 2px 0 0 2px;
-}
-
-.slider_option {
-  position: relative;
-  font-size: 18px;
->>>>>>> 3bc8786d459157a56fb541ec6afe368338f99e06
 }
