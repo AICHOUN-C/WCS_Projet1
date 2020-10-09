@@ -1,7 +1,3 @@
-/* #burger{
-    display: none;
-} */
-
 /*MEDIA QUERIES FOR SMARTPHONE LANDSCAPE AND PORTRAIT STYLE*/
  @media only screen and (max-device-width : 480px) {
 
@@ -12,7 +8,7 @@
         height: 24px;
         cursor: pointer;
         position: relative;
-        top: -2.7em;
+        top: -5.7em;
         left: 19.5em;
     }
     .burger span{
@@ -68,7 +64,7 @@
         height: 100%;
         border-radius: 4px;
         position: absolute;
-        top: 8.6em;
+        top: 13em;
     }
     .menuBurger a {
         color: #ffffff;
