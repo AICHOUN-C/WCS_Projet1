@@ -1,3 +1,6 @@
+#burger{
+    display: none;
+
 /*MEDIA QUERIES FOR SMARTPHONE LANDSCAPE AND PORTRAIT STYLE*/
  @media only screen and (max-device-width : 480px) {
 

@@ -192,6 +192,8 @@ footer {
     nav {
         padding-bottom: 15px;
     }
+    #burger{
+        display: none;
 
 }
 
